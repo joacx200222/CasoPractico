@@ -9,10 +9,10 @@
 
     <form method="POST" action="#">
         <p>Nombre:
-            <input type="text" name="usuario" id="campo1">
+            <input type="text" name="usuario" id="campo1" required>
         </p>
         <p>Apellido:
-            <input type="text" name="clave" id="campo2">
+            <input type="text" name="clave" id="campo2" required>
         </p>
         <p>Tipo: 
         <select>
@@ -21,19 +21,19 @@
         </select>
         </p>
         <p>Telefono:
-            <input type="text" name="telefono" id="campo4">
+            <input type="text" name="telefono" id="campo4" required>
 
         </p>
         <p>
             Comentarios: (Maximo 50 caracteres)
             <br>
-            <textarea cols="50" rows="3" placeholder="escribir comentario.">
+            <textarea cols="50" rows="3">
                 
                 
             </textarea>
         </p>
 
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar"/>
         
     </form>
 </body>
